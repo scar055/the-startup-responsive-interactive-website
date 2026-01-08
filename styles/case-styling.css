@@ -1,0 +1,17 @@
+@font-face {
+    font-family: hind guntur;
+    src: url("assets/fonts/Hind_Guntur/HindGuntur-Regular.ttf");
+}
+
+:root {
+    font-size: 16px;
+    font-family: hind guntur, sans-serif;
+    line-height: 1.4;
+
+    --primary-text-color: #000000;
+    --primary-background-color: #FFFFFF;
+    --primary-color: #281CE2;
+    --primary-hover-color: #EEF9FD;
+    --secondary-color: #E2655E;
+    --secondary-hover-color: #F7CDD5;
+}
