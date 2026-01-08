@@ -15,6 +15,35 @@
     --secondary-color: #E2655E;
     --secondary-hover-color: #F7CDD5;
 }
+
+/* header styling */
+
+header {
+    div {
+        a {
+            color: var(--primary-text-color);
+            text-decoration: none;
+
+            img {
+                align-self: center;
+                width: 100%;
+            }
+        }
+
+        ul {
+            padding: 0;
+            list-style-type: none;
+
+            li {
+                a {
+                    color: var(--primary-text-color);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
 /* main styling */
 main {
     article {
