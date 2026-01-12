@@ -19,16 +19,16 @@
 /* header styling */
 
 header {
-    div {
-        a {
-            color: var(--primary-text-color);
-            text-decoration: none;
+    a {
+        color: var(--primary-text-color);
+        text-decoration: none;
 
-            img {
-                align-self: center;
-                width: 100%;
-            }
+        img {
+            align-self: center;
+            height: 5em;
+            width: 16em;
         }
+    }
 
         ul {
             padding: 0;
