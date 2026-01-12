@@ -16,6 +16,10 @@
     --secondary-hover-color: #F7CDD5;
 }
 
+body {
+    margin: 0;
+}
+
 /* header styling */
 
 header {
@@ -58,6 +62,8 @@ header {
 
 /* main styling */
 main {
+    margin: 1em;
+
     article {
         img {
             width: 100%;
