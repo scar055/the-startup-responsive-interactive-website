@@ -42,6 +42,18 @@ header {
         }
     }
 
+    button {
+        position: fixed;
+        /* we doen hier centimeters want je kan geen duim in px meten */
+        width: 4cm;
+        height: 4cm;
+        bottom: 0;
+        right: 0;
+        background-color: var(--primary-color);
+        color: var(--primary-background-color);
+        border: none;
+    }
+
 }
 
 /* main styling */
