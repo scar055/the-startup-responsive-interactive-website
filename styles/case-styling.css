@@ -23,6 +23,16 @@ body {
 /* header styling */
 
 header {
+
+    /* this css is gonna change later */
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding-block-start: 1.5em;
+        padding-block-end: 2em;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+
     a {
         color: var(--primary-text-color);
         text-decoration: none;
@@ -34,6 +44,7 @@ header {
     }
 
     ul {
+        display: none;
         padding: 0;
         list-style-type: none;
 
@@ -70,3 +81,7 @@ main {
         }
     }
 }
+
+/* footer styling */
+
+footer {}
