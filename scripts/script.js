@@ -5,4 +5,8 @@ const openMenu = document.querySelector("button");
 openMenu.addEventListener("click", function () {
   document.querySelector("ul").classList.toggle("vissible");
   document.querySelector("body").classList.toggle("scroll");
+  document.querySelector("button img").classList.toggle("disapear");
+  document
+    .querySelector("button img:nth-of-type(2)")
+    .classList.toggle("disapear");
 });

@@ -113,6 +113,15 @@ header {
         background-color: var(--primary-color);
         color: var(--primary-background-color);
         border: none;
+
+        img {
+            width: 3.5em;
+            height: 3.5em;
+        }
+
+        .disapear {
+            display: none;
+        }
     }
 
 }
