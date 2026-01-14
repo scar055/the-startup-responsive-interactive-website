@@ -20,6 +20,10 @@ body {
     margin: 0;
 }
 
+.scroll {
+    overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -34,6 +38,16 @@ h6 {
 }
 
 /* header styling */
+
+@keyframes burgermenu {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
 
 header {
 
@@ -76,6 +90,8 @@ header {
         padding: max(4em) max(3em);
         height: 90vh;
         width: 100vh;
+        animation: burgermenu;
+        animation-duration: .5s;
 
         li {
             margin: 1.5em;
