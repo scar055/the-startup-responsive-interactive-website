@@ -130,6 +130,11 @@ header {
 main {
     margin: 1em;
 
+    a {
+        text-decoration: none;
+        color: var(--primary-text-color);
+    }
+
     article {
         img {
             width: 100%;
