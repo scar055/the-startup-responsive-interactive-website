@@ -128,7 +128,7 @@ header {
 
 /* main styling */
 main {
-    margin: 1em;
+    margin: 1.8em;
 
     a {
         text-decoration: none;
@@ -145,4 +145,18 @@ main {
 
 /* footer styling */
 
-footer {}
+footer {
+    padding-inline: 1.8em;
+
+    a {
+        text-decoration: none;
+        color: var(--primary-text-color);
+    }
+
+    section {
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+    }
+}
