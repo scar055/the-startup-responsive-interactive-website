@@ -10,6 +10,7 @@
 
     --primary-text-color: #000000;
     --primary-background-color: #FFFFFF;
+    --secondary-background-color: #e6e6e6;
     --primary-color: #281CE2;
     --primary-hover-color: #EEF9FD;
     --secondary-color: #E2655E;
@@ -135,6 +136,7 @@ main {
         color: var(--primary-text-color);
     }
 
+
     article {
         img {
             width: 100%;
@@ -147,6 +149,7 @@ main {
 
 footer {
     padding-inline: 1.8em;
+    color: var(--secondary-background-color);
 
     a {
         text-decoration: none;
