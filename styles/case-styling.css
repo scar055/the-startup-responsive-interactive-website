@@ -154,7 +154,7 @@ main {
 
 footer {
     padding-inline: 1.8em;
-    color: var(--secondary-background-color);
+    background-color: var(--secondary-background-color);
 
     a {
         text-decoration: none;
