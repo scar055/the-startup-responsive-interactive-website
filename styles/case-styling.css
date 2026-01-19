@@ -169,6 +169,21 @@ main {
 
             }
 
+            h2 {
+                padding-block-start: 3em;
+                padding-inline-start: 2em;
+                margin: 0;
+            }
+
+            p {
+                padding-inline-start: 3em;
+            }
+
+            a {
+                padding-block-end: 3em;
+                padding-inline-start: 3em;
+            }
+
             &:nth-of-type(even) {
                 img {
                     grid-column: 2;
@@ -177,11 +192,33 @@ main {
 
                 h2 {
                     grid-row: 1;
+                    padding-block-start: 3em;
+                    padding-inline-start: 0;
+                    padding-inline-end: 2em;
+                    margin: 0;
+                }
+
+                p {
+                    padding-inline-start: 0;
+                    padding-inline-end: 3em;
+                }
+
+                a {
+                    padding-block-end: 3em;
+                    padding-inline-start: 0;
+                    padding-inline-end: 3em;
                 }
             }
 
             &:last-child {
-                display: block;
+                display: flex;
+                justify-content: space-between;
+                margin-block-start: 5em;
+
+                h2 {
+                    padding: 0;
+                }
+
             }
         }
     }
@@ -190,7 +227,6 @@ main {
 /* footer styling */
 
 footer {
-    padding-inline: 1.8em;
     background-color: var(--secondary-background-color);
 
     a {
@@ -199,6 +235,13 @@ footer {
     }
 
     section {
+        padding-block-start: 1em;
+        padding-inline: 1.8em;
+
+        &:last-child {
+            background-color: var(--secondary-color);
+        }
+
         ul {
             padding: 0;
             list-style: none;
