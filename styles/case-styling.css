@@ -134,6 +134,10 @@ header {
 main {
     margin: 1.8em;
 
+    @media (min-width: 64em) {
+        margin-inline: 15vw;
+    }
+
     a {
         text-decoration: none;
         color: var(--primary-text-color);
