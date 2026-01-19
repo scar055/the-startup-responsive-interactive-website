@@ -150,6 +150,13 @@ main {
             height: 50%;
         }
 
+        &:last-child {
+            a {
+                padding: 1em;
+                background: var(--secondary-color);
+            }
+        }
+
         @media (min-width: 64em) {
             display: grid;
             grid-template-columns: 1fr 1fr;
