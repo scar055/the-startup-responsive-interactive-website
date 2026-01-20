@@ -239,6 +239,12 @@ footer {
     background-size: 700vw 1.3vw;
     background-color: var(--secondary-background-color);
 
+    @media (min-width: 64em) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
     a {
         text-decoration: none;
         color: var(--primary-text-color);
@@ -246,7 +252,14 @@ footer {
 
     section {
         padding-block-start: 1em;
-        padding-inline: 1.8em;
+
+        @media (min-width: 64em) {
+
+            &:last-child {
+                grid-column: span 3;
+                padding-inline: 15vw;
+            }
+        }
 
         &:last-child {
             background-color: var(--secondary-color);
