@@ -234,6 +234,9 @@ main {
 /* footer styling */
 
 footer {
+    background-image: url(../assets/svg/triangle.svg);
+    background-repeat: no-repeat;
+    background-size: 700vw 1.3vw;
     background-color: var(--secondary-background-color);
 
     a {
