@@ -21,8 +21,19 @@ link naar het project: https://scar055.github.io/the-startup-responsive-interact
 Pagina die ik heb gemaakt.
 <img width="3394" height="1696" alt="image" src="https://github.com/user-attachments/assets/d76a195d-78ef-422d-aed1-0d1eb1821954" />
 
+<img width="638" height="1526" alt="image" src="https://github.com/user-attachments/assets/3f431402-f771-4e1d-8eb1-4b2c57320b65" />
+
+Voor de pagina heb ik html5 elements gebruikt zoals header, main, footer, article en sections zodat het meer gebruik maakt van moderne html. 
+
+In hun site zijn er meer divs gebruikt naast wat html5 elementen.
 
 
+Ik heb een inventory iterface gemaakt en hun huis stijl in een [figma](https://www.figma.com/design/fNaT4QVETbZ12CNLGDG8vO/interface-inventory---styleguide-label-vier?t=DaqRWLfLaJqlCfyY-0) bestand en daarna, 
+ben ik mobile first aan de website gaan werken en heb daarna de desktop variant gemaakt.
+
+Voor toegangelijkheid heb ik een [color contrast check](https://github.com/scar055/the-startup-responsive-interactive-website/issues/7) gedaan en een [lighthouse audit](https://github.com/scar055/the-startup-responsive-interactive-website/issues/9)
+
+ook heb ik een [wcag checklist](https://www.a11yproject.com/checklist/) bij gehouden voor toegangelijkheid
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
@@ -36,6 +47,7 @@ css:
 er is gebruikt gemaakt van: 
 [nesting](https://github.com/scar055/the-startup-responsive-interactive-website/blob/7e886e7d9fb65a7279dadbb7a16e45199d0c3c0f/styles/case-styling.css#L53-L71)
 [animation](https://github.com/scar055/the-startup-responsive-interactive-website/blob/7e886e7d9fb65a7279dadbb7a16e45199d0c3c0f/styles/case-styling.css#L43-L51)
+[custom css tokens](https://github.com/scar055/the-startup-responsive-interactive-website/blob/3113cff4a5a151f98e3ea43cb5d0ce8369970aed/styles/case-styling.css#L11)
 
 https://github.com/user-attachments/assets/e98e7289-06bd-4e00-99f3-9ff7a4d28f57
 
